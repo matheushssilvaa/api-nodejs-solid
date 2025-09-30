@@ -1,4 +1,4 @@
-import { CheckIn, Prisma, User } from "generated/prisma";
+import { CheckIn, Prisma } from "generated/prisma";
 import { CheckInsRepository } from "../check-ins-repository";
 import { randomUUID } from "crypto";
 import dayjs from "dayjs";
