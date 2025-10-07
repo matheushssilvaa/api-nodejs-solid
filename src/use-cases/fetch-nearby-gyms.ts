@@ -10,7 +10,7 @@ interface SearchNearbyGymsUseCaseResponse {
     gyms: Gym[]
 }
 
-export class SearchNearbyGymsUseCase {
+export class FetchNearbyGymsUseCase {
 
     constructor(private gymsRepository: GymsRepository) { }
 

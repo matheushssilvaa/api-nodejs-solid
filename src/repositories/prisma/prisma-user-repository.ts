@@ -23,12 +23,12 @@ export class PrismaUsersRepository implements UsersRepository {
     }
 
     async findById(id: string): Promise<User | null> {
-        const userById = await prisma.user.findUnique({
+        const user = await prisma.user.findUnique({
             where: {
                 id
             }
         })
 
-        return userById
+        return user
     }
 }
