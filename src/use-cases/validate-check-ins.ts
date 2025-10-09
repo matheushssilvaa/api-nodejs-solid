@@ -1,5 +1,5 @@
-import { LateCheckInValidationError } from "@/errors/late-check-in-validation-error";
-import { ResourceNotFoundError } from "@/errors/resource-not-found-error";
+import { LateCheckInValidationError } from "@/use-cases/errors/late-check-in-validation-error";
+import { ResourceNotFoundError } from "@/use-cases/errors/resource-not-found-error";
 import { CheckInsRepository } from "@/repositories/check-ins-repository";
 import dayjs from "dayjs";
 import { CheckIn } from "generated/prisma";

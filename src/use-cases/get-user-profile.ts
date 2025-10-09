@@ -1,4 +1,4 @@
-import { ResourceNotFoundError } from "@/errors/resource-not-found-error";
+import { ResourceNotFoundError } from "@/use-cases/errors/resource-not-found-error";
 import { UsersRepository } from "@/repositories/users-repository";
 import { User } from "generated/prisma";
 
